@@ -37,16 +37,16 @@ def run_migrations_offline() -> None:
 def run_migrations_online() -> None:
     engine = config.attributes.get("engine")
     if engine is None:
-        url = config.get_main_option("sqlalchemy.url")
-        if not url:
-            from grasp.paths import database_path
+        if config.get_main_option("sqlalchemy.url"):
+            engine = engine_from_config(
+                config.get_section(config.config_ini_section, {}),
+                prefix="sqlalchemy.",
+                poolclass=pool.NullPool,
+            )
+        else:  # alembic из командной строки: БД пользователя
+            from grasp.data.db import make_engine
 
-            config.set_main_option("sqlalchemy.url", f"sqlite:///{database_path().as_posix()}")
-        engine = engine_from_config(
-            config.get_section(config.config_ini_section, {}),
-            prefix="sqlalchemy.",
-            poolclass=pool.NullPool,
-        )
+            engine = make_engine()
     with engine.connect() as connection:
         context.configure(
             connection=connection,

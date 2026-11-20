@@ -159,7 +159,7 @@ def test_smoke_run_as_process(tmp_path):
         [sys.executable, "-m", "grasp", "--smoke-test", "--smoke-out", str(out)],
         cwd=ROOT, env=env, capture_output=True, text=True, timeout=120,
     )  # fmt: skip
-    assert proc.returncode == 0, proc.stderr
+    assert proc.returncode == 0, f"{proc.stdout}\n{proc.stderr}"
     result = json.loads(out.read_text("utf-8"))
     assert result["ok"] and len(result["pages"]) == len(NAV)
 
@@ -184,6 +184,8 @@ def test_no_clipped_text(scale):
         [sys.executable, "-m", "tests.ui_audit", "--out", str(out), "--font-scales", fonts],
         cwd=ROOT, env=env, capture_output=True, text=True, timeout=1200,
     )  # fmt: skip
-    report = json.loads((out / f"report-{int(scale * 100)}.json").read_text("utf-8"))
+    report_path = out / f"report-{int(scale * 100)}.json"
+    assert report_path.exists(), f"аудит не отработал:\n{proc.stdout}\n{proc.stderr}"
+    report = json.loads(report_path.read_text("utf-8"))
     assert report["states"] > 0, proc.stderr
     assert report["issues"] == [], "\n".join(report["issues"])

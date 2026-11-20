@@ -35,6 +35,15 @@ def test_migrations_match_models(data_dir):
     assert diff == []
 
 
+def test_db_path_with_percent(tmp_path):
+    """Регрессия: на Windows URL БД содержит «C%3A», configparser Alembic падал."""
+    folder = tmp_path / "100% C%3A data"
+    folder.mkdir()
+    db = open_database(folder / "grasp.db")
+    assert get_profile(db).current_level == "A1.1"
+    db.engine.dispose()
+
+
 def test_progress_survives_reopen(data_dir):
     db = open_database()
     with db.session() as s:

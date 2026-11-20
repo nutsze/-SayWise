@@ -9,7 +9,7 @@ from pathlib import Path
 from alembic import command
 from alembic.config import Config
 from sqlalchemy import create_engine, event, select
-from sqlalchemy.engine import Engine
+from sqlalchemy.engine import URL, Engine
 from sqlalchemy.orm import Session, sessionmaker
 
 from grasp.core.levels import SKILLS
@@ -21,7 +21,9 @@ log = logging.getLogger(__name__)
 
 def make_engine(db_path: Path | None = None) -> Engine:
     db_path = db_path or database_path()
-    engine = create_engine(f"sqlite:///{db_path.as_posix()}", future=True)
+    # URL.create, а не f"sqlite:///{path}": путь не экранируется вручную, и
+    # символы вроде «%» или «#» в имени пользователя Windows не ломают его.
+    engine = create_engine(URL.create("sqlite", database=str(db_path)), future=True)
 
     @event.listens_for(engine, "connect")
     def _pragmas(dbapi_conn, _record) -> None:  # pragma: no cover - тривиально
@@ -36,8 +38,11 @@ def make_engine(db_path: Path | None = None) -> Engine:
 def alembic_config(engine: Engine) -> Config:
     """Конфиг Alembic без alembic.ini — работает и из собранного EXE."""
     cfg = Config()
-    cfg.set_main_option("script_location", str(resource_path("data", "migrations")))
-    cfg.set_main_option("sqlalchemy.url", str(engine.url))
+    # Путь не должен содержать «%»: Config — это configparser с интерполяцией.
+    cfg.set_main_option("script_location", str(resource_path("data", "migrations")).replace("%", "%%"))
+    # URL базы в конфиг НЕ кладём: на Windows он выглядит как
+    # sqlite:///C%3A/Users/..., и configparser падает на «%». Движок
+    # передаётся в env.py напрямую.
     cfg.attributes["engine"] = engine
     cfg.attributes["configure_logger"] = False
     return cfg
