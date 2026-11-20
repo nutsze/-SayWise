@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "note": "Пример формата словаря (шаг 2 расширит до полных наборов по подуровням). ipa — британская транскрипция.",
+  "words": [
+    {"id": "hello", "word": "hello", "ipa": "/həˈləʊ/", "pos": "exclamation", "translation_ru": "привет, здравствуйте", "example": "Hello, my name is Anna.", "level": "A1.1", "theme": "greetings"},
+    {"id": "thank-you", "word": "thank you", "ipa": "/ˈθæŋk juː/", "pos": "phrase", "translation_ru": "спасибо", "example": "Thank you for your help.", "level": "A1.1", "theme": "greetings"},
+    {"id": "mother", "word": "mother", "ipa": "/ˈmʌðə/", "pos": "noun", "translation_ru": "мать, мама", "example": "My mother is a doctor.", "level": "A1.1", "theme": "family"},
+    {"id": "brother", "word": "brother", "ipa": "/ˈbrʌðə/", "pos": "noun", "translation_ru": "брат", "example": "I have one brother.", "level": "A1.1", "theme": "family"},
+    {"id": "three", "word": "three", "ipa": "/θriː/", "pos": "number", "translation_ru": "три", "example": "She has three cats.", "level": "A1.1", "theme": "numbers"},
+    {"id": "orange", "word": "orange", "ipa": "/ˈɒrɪndʒ/", "pos": "noun, adjective", "translation_ru": "апельсин; оранжевый", "example": "I’d like an orange, please.", "level": "A1.1", "theme": "colours"},
+    {"id": "chair", "word": "chair", "ipa": "/tʃeə/", "pos": "noun", "translation_ru": "стул", "example": "There’s a chair by the window.", "level": "A1.1", "theme": "everyday objects"},
+    {"id": "usually", "word": "usually", "ipa": "/ˈjuːʒuəli/", "pos": "adverb", "translation_ru": "обычно", "example": "I usually get up at seven.", "level": "A1.2", "theme": "daily routine"},
+    {"id": "morning", "word": "morning", "ipa": "/ˈmɔːnɪŋ/", "pos": "noun", "translation_ru": "утро", "example": "I drink coffee every morning.", "level": "A1.2", "theme": "daily routine"},
+    {"id": "kitchen", "word": "kitchen", "ipa": "/ˈkɪtʃɪn/", "pos": "noun", "translation_ru": "кухня", "example": "We eat breakfast in the kitchen.", "level": "A1.2", "theme": "home"},
+    {"id": "weather", "word": "weather", "ipa": "/ˈweðə/", "pos": "noun", "translation_ru": "погода", "example": "The weather is nice today.", "level": "A1.2", "theme": "weather"},
+    {"id": "fish", "word": "fish", "ipa": "/fɪʃ/", "pos": "noun", "translation_ru": "рыба", "example": "Do you like fish?", "level": "A1.2", "theme": "food"},
+    {"id": "measure", "word": "measure", "ipa": "/ˈmeʒə/", "pos": "verb", "translation_ru": "измерять", "example": "Scientists measure the temperature every hour.", "level": "B1.1", "theme": "science basics"},
+    {"id": "hypothesis", "word": "hypothesis", "ipa": "/haɪˈpɒθəsɪs/", "pos": "noun", "translation_ru": "гипотеза", "example": "The data support the hypothesis.", "level": "B2.2", "theme": "academic life"},
+    {"id": "ubiquitous", "word": "ubiquitous", "ipa": "/juːˈbɪkwɪtəs/", "pos": "adjective", "translation_ru": "вездесущий, повсеместный", "example": "Smartphones have become ubiquitous.", "level": "C1.2", "theme": "technology"}
+  ]
+}

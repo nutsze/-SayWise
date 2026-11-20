@@ -1,0 +1,23 @@
+{
+  "name": "dark",
+  "title_ru": "Тёмная",
+  "tokens": {
+    "bg": "#131519",
+    "surface": "#1C1F25",
+    "surface_alt": "#252930",
+    "border": "#3A3F49",
+    "text": "#E8EAED",
+    "text_secondary": "#A6ADB8",
+    "accent": "#86A6FF",
+    "accent_text": "#0D1221",
+    "accent_soft": "#243152",
+    "success": "#6BCB82",
+    "success_bg": "#16301D",
+    "error": "#FF8E85",
+    "error_bg": "#3B1D1B",
+    "warning": "#F0BE5A",
+    "warning_bg": "#362913",
+    "focus": "#86A6FF",
+    "scrollbar": "#4A505B"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "note": "Индекс тем грамматики. Содержимое правил (объяснения, примеры, задания) — в отдельных файлах на шаге 4. Каждое правило привязано к подуровню полем level; одно и то же правило используется и в навигации «По темам», и в маршруте «По уровням».",
+  "topics": [
+    {
+      "id": "tenses",
+      "title_ru": "Времена (все 12)",
+      "title_en": "Tenses",
+      "summary_ru": "Simple / Continuous / Perfect / Perfect Continuous × Present / Past / Future — от to be до тонкого выбора аспекта.",
+      "rules": [
+        {"id": "to-be", "title": "To be: am / is / are, was / were", "level": "A1.1"},
+        {"id": "present-simple", "title": "Present Simple", "level": "A1.1"},
+        {"id": "present-continuous", "title": "Present Continuous", "level": "A1.2"},
+        {"id": "past-simple-regular", "title": "Past Simple: regular verbs and basic irregulars", "level": "A1.2"},
+        {"id": "past-simple-irregular", "title": "Past Simple: all irregular verbs", "level": "A2.1"},
+        {"id": "past-continuous", "title": "Past Continuous", "level": "A2.1"},
+        {"id": "will-going-to", "title": "Will vs going to", "level": "A2.1"},
+        {"id": "present-perfect", "title": "Present Perfect", "level": "A2.2"},
+        {"id": "present-continuous-future", "title": "Present Continuous for future arrangements", "level": "A2.2"},
+        {"id": "past-perfect", "title": "Past Perfect", "level": "B1.1"},
+        {"id": "pp-vs-past-simple", "title": "Present Perfect vs Past Simple", "level": "B1.1"},
+        {"id": "past-simple-vs-continuous", "title": "Past Simple vs Past Continuous", "level": "B1.1"},
+        {"id": "present-perfect-continuous", "title": "Present Perfect Continuous", "level": "B1.2"},
+        {"id": "pp-vs-ppc", "title": "Present Perfect vs Present Perfect Continuous", "level": "B1.2"},
+        {"id": "used-to-would", "title": "Used to / would for past habits", "level": "B1.2"},
+        {"id": "future-continuous", "title": "Future Continuous", "level": "B2.1"},
+        {"id": "future-perfect", "title": "Future Perfect", "level": "B2.1"},
+        {"id": "past-perfect-continuous", "title": "Past Perfect Continuous", "level": "B2.1"},
+        {"id": "future-perfect-vs-continuous", "title": "Future Perfect vs Future Continuous", "level": "B2.1"},
+        {"id": "future-perfect-continuous", "title": "Future Perfect Continuous", "level": "B2.2"},
+        {"id": "all-12-tenses", "title": "All 12 tenses compared", "level": "B2.2"},
+        {"id": "stative-dynamic", "title": "Stative vs dynamic verbs", "level": "C1.1"},
+        {"id": "future-in-past", "title": "Future in the past: was going to, would", "level": "C1.1"},
+        {"id": "narrative-tenses", "title": "Narrative tenses in connected text", "level": "C1.2"},
+        {"id": "future-in-time-clauses", "title": "Future meaning in time and condition clauses", "level": "C1.2"},
+        {"id": "tense-distancing", "title": "Tenses for distance and politeness (I was wondering, I’d hoped)", "level": "C2.1"},
+        {"id": "historic-present", "title": "Historic present", "level": "C2.1"},
+        {"id": "aspect-academic-literary", "title": "Subtle aspect choice in academic and literary prose", "level": "C2.2"}
+      ]
+    },
+    {
+      "id": "conditionals",
+      "title_ru": "Условные предложения",
+      "title_en": "Conditionals",
+      "summary_ru": "Zero, First, Second, Third и смешанные условные, а также unless, provided that, as long as.",
+      "rules": [
+        {"id": "zero-conditional", "title": "Zero conditional", "level": "B1.1"},
+        {"id": "first-conditional", "title": "First conditional", "level": "B1.1"},
+        {"id": "second-conditional", "title": "Second conditional", "level": "B1.2"},
+        {"id": "third-conditional", "title": "Third conditional", "level": "B2.1"},
+        {"id": "mixed-conditionals", "title": "Mixed conditionals", "level": "B2.2"},
+        {"id": "conditional-alternatives", "title": "Unless, provided that, as long as, supposing", "level": "C1.1"}
+      ]
+    },
+    {
+      "id": "passive",
+      "title_ru": "Пассивный залог",
+      "title_en": "Passive voice",
+      "summary_ru": "Пассив во всех временах, с модальными, have something done, безличный пассив.",
+      "rules": [
+        {"id": "passive-present-past-simple", "title": "Passive: Present and Past Simple", "level": "B1.1"},
+        {"id": "passive-perfect-continuous", "title": "Passive: perfect and continuous forms", "level": "B1.2"},
+        {"id": "passive-modals", "title": "Passive with modal verbs", "level": "B2.1"},
+        {"id": "passive-all-tenses", "title": "Passive in all tenses", "level": "B2.2"},
+        {"id": "causative-have", "title": "Have / get something done", "level": "B2.2"},
+        {"id": "impersonal-passive", "title": "It is said that… / He is believed to…", "level": "C1.1"}
+      ]
+    },
+    {
+      "id": "modals",
+      "title_ru": "Модальные глаголы",
+      "title_en": "Modal verbs",
+      "summary_ru": "От can и must до must have been, needn’t have done и модальности в академическом стиле.",
+      "rules": [
+        {"id": "can-cant", "title": "Can / can’t for ability and permission", "level": "A1.2"},
+        {"id": "must-have-to", "title": "Must vs have to", "level": "A2.1"},
+        {"id": "should-advice", "title": "Should / ought to for advice", "level": "A2.2"},
+        {"id": "might-may-could", "title": "Might, may, could for possibility", "level": "B1.1"},
+        {"id": "modals-deduction-present", "title": "Must / can’t / might be: present deduction", "level": "B1.2"},
+        {"id": "modals-past", "title": "Must have been, can’t have done, might have done", "level": "B2.1"},
+        {"id": "neednt-have-done", "title": "Needn’t have done vs didn’t need to", "level": "B2.2"},
+        {"id": "modals-nuance", "title": "Modal nuance: be bound to, be supposed to, would rather", "level": "C1.1"}
+      ]
+    },
+    {
+      "id": "reported-speech",
+      "title_ru": "Косвенная речь",
+      "title_en": "Reported speech",
+      "summary_ru": "Согласование времён, вопросы и просьбы в косвенной речи, глаголы сообщения.",
+      "rules": [
+        {"id": "reported-statements", "title": "Reported statements and backshift", "level": "B1.2"},
+        {"id": "reported-questions", "title": "Reported questions and requests", "level": "B1.2"},
+        {"id": "reporting-verbs", "title": "Reporting verbs: suggest, deny, admit, urge", "level": "B2.1"}
+      ]
+    },
+    {
+      "id": "articles",
+      "title_ru": "Артикли",
+      "title_en": "Articles",
+      "summary_ru": "a / an / the / нулевой артикль — главная боль русскоговорящих, от основ до обобщений и имён собственных.",
+      "rules": [
+        {"id": "a-an", "title": "A / an", "level": "A1.1"},
+        {"id": "the-basics", "title": "The: first and second mention", "level": "A1.2"},
+        {"id": "zero-article", "title": "Zero article with plurals and uncountables", "level": "A2.1"},
+        {"id": "articles-geography", "title": "Articles with place names", "level": "B1.1"},
+        {"id": "articles-generic", "title": "Generic reference: the tiger, tigers, a tiger", "level": "B2.1"},
+        {"id": "articles-advanced", "title": "Articles in academic writing and fixed phrases", "level": "C1.2"}
+      ]
+    },
+    {
+      "id": "prepositions",
+      "title_ru": "Предлоги",
+      "title_en": "Prepositions",
+      "summary_ru": "Время, место, движение, зависимые предлоги после глаголов и прилагательных.",
+      "rules": [
+        {"id": "prep-time", "title": "In / on / at for time", "level": "A1.1"},
+        {"id": "prep-place", "title": "In / on / at for place", "level": "A1.2"},
+        {"id": "prep-movement", "title": "Prepositions of movement", "level": "A2.1"},
+        {"id": "dependent-prepositions", "title": "Dependent prepositions: depend on, interested in", "level": "B1.2"},
+        {"id": "prepositional-phrases", "title": "Prepositional phrases: in terms of, on behalf of", "level": "C1.1"}
+      ]
+    },
+    {
+      "id": "gerund-infinitive",
+      "title_ru": "Герундий и инфинитив",
+      "title_en": "Gerunds and infinitives",
+      "summary_ru": "Глаголы + -ing / to do, изменение смысла (stop doing / stop to do), perfect и passive формы.",
+      "rules": [
+        {"id": "like-ing", "title": "Like / love / hate + -ing", "level": "A1.2"},
+        {"id": "want-to", "title": "Want / need / would like + to-infinitive", "level": "A2.1"},
+        {"id": "verb-patterns", "title": "Verb patterns: enjoy doing, decide to do", "level": "B1.1"},
+        {"id": "meaning-change", "title": "Stop / remember / try + -ing vs to", "level": "B2.1"},
+        {"id": "perfect-passive-infinitive", "title": "Perfect and passive gerunds and infinitives", "level": "C1.1"}
+      ]
+    },
+    {
+      "id": "relative-clauses",
+      "title_ru": "Относительные придаточные",
+      "title_en": "Relative clauses",
+      "summary_ru": "Who / which / that / whose, определительные и описательные придаточные, сокращённые формы.",
+      "rules": [
+        {"id": "defining-relatives", "title": "Defining relative clauses: who, which, that", "level": "B1.1"},
+        {"id": "non-defining-relatives", "title": "Non-defining relative clauses", "level": "B1.2"},
+        {"id": "whose-whom-where", "title": "Whose, whom, where, when", "level": "B2.1"},
+        {"id": "reduced-relatives", "title": "Reduced relative clauses", "level": "C1.1"}
+      ]
+    },
+    {
+      "id": "comparison",
+      "title_ru": "Степени сравнения",
+      "title_en": "Comparatives and superlatives",
+      "summary_ru": "-er / more, the most, as … as, усиление сравнения, the more … the better.",
+      "rules": [
+        {"id": "comparatives", "title": "Comparative adjectives", "level": "A2.1"},
+        {"id": "superlatives", "title": "Superlative adjectives", "level": "A2.2"},
+        {"id": "as-as", "title": "As … as, not as … as", "level": "B1.1"},
+        {"id": "modifying-comparatives", "title": "Far / slightly / a lot + comparative", "level": "B2.1"},
+        {"id": "double-comparatives", "title": "The more …, the more …", "level": "B2.2"}
+      ]
+    },
+    {
+      "id": "countability",
+      "title_ru": "Исчисляемые и неисчисляемые",
+      "title_en": "Countable and uncountable nouns",
+      "summary_ru": "Much / many, a few / a little, some / any, существительные, меняющие смысл.",
+      "rules": [
+        {"id": "some-any", "title": "Some / any", "level": "A1.2"},
+        {"id": "much-many", "title": "Much / many / a lot of", "level": "A2.1"},
+        {"id": "few-little", "title": "A few / few, a little / little", "level": "A2.2"},
+        {"id": "uncountable-tricky", "title": "Tricky uncountables: advice, information, research", "level": "B1.2"},
+        {"id": "quantifiers-advanced", "title": "A great deal of, a number of, hardly any", "level": "C1.1"}
+      ]
+    },
+    {
+      "id": "questions",
+      "title_ru": "Вопросы и порядок слов",
+      "title_en": "Questions and word order",
+      "summary_ru": "Порядок слов в утверждении и вопросе, вспомогательные глаголы, косвенные и разделительные вопросы.",
+      "rules": [
+        {"id": "word-order-basic", "title": "Basic word order: subject + verb + object", "level": "A1.1"},
+        {"id": "yes-no-questions", "title": "Yes/no questions with do / does / is", "level": "A1.1"},
+        {"id": "wh-questions", "title": "Wh-questions", "level": "A1.2"},
+        {"id": "subject-questions", "title": "Subject vs object questions", "level": "A2.2"},
+        {"id": "indirect-questions", "title": "Indirect questions: Could you tell me where…", "level": "B1.1"},
+        {"id": "question-tags", "title": "Question tags", "level": "B1.2"},
+        {"id": "adverb-position", "title": "Position of adverbs", "level": "B2.1"}
+      ]
+    },
+    {
+      "id": "phrasal-verbs",
+      "title_ru": "Фразовые глаголы",
+      "title_en": "Phrasal verbs",
+      "summary_ru": "Разделяемые и неразделяемые, частицы и их значения, фразовые глаголы в академическом языке.",
+      "rules": [
+        {"id": "phrasal-basic", "title": "Everyday phrasal verbs: get up, turn on", "level": "A2.1"},
+        {"id": "phrasal-separable", "title": "Separable vs inseparable phrasal verbs", "level": "B1.1"},
+        {"id": "phrasal-particles", "title": "Meanings of particles: up, out, off, over", "level": "B2.1"},
+        {"id": "phrasal-three-part", "title": "Three-part phrasal verbs: put up with, come up with", "level": "B2.2"},
+        {"id": "phrasal-academic", "title": "Phrasal verbs vs formal equivalents", "level": "C1.2"}
+      ]
+    },
+    {
+      "id": "subjunctive",
+      "title_ru": "Сослагательное наклонение",
+      "title_en": "Subjunctive and unreal past",
+      "summary_ru": "Wish, if only, it’s time, would rather, It’s essential that he be.",
+      "rules": [
+        {"id": "wish-present", "title": "Wish / if only + past", "level": "B2.1"},
+        {"id": "wish-past", "title": "Wish / if only + past perfect, wish + would", "level": "B2.2"},
+        {"id": "unreal-past", "title": "It’s time, would rather, as if", "level": "C1.1"},
+        {"id": "mandative-subjunctive", "title": "Mandative subjunctive: It’s essential that he be", "level": "C1.2"}
+      ]
+    },
+    {
+      "id": "inversion",
+      "title_ru": "Инверсия",
+      "title_en": "Inversion",
+      "summary_ru": "Never have I…, Had I known…, Little did she…, Not only… but also.",
+      "rules": [
+        {"id": "inversion-so-neither", "title": "So do I / Neither do I", "level": "B1.2"},
+        {"id": "inversion-negative-adverbials", "title": "Never have I…, Rarely does…", "level": "C1.1"},
+        {"id": "inversion-conditionals", "title": "Had I known…, Should you need…, Were it not for…", "level": "C1.2"},
+        {"id": "inversion-literary", "title": "Little did she know…, Not until…, Only then…", "level": "C2.1"}
+      ]
+    },
+    {
+      "id": "cleft",
+      "title_ru": "Cleft sentences",
+      "title_en": "Cleft sentences",
+      "summary_ru": "It was … that…, What I need is…, All I want is… — выделение главного.",
+      "rules": [
+        {"id": "it-cleft", "title": "It-cleft: It was John who…", "level": "C1.1"},
+        {"id": "wh-cleft", "title": "Wh-cleft: What I need is…", "level": "C1.1"},
+        {"id": "cleft-advanced", "title": "All / The thing / The reason why… is", "level": "C2.1"}
+      ]
+    },
+    {
+      "id": "ellipsis",
+      "title_ru": "Эллипсис и замещение",
+      "title_en": "Ellipsis and substitution",
+      "summary_ru": "So / not, do so, one / ones, пропуск повторяющихся элементов.",
+      "rules": [
+        {"id": "substitution-one", "title": "One / ones", "level": "B1.2"},
+        {"id": "so-not", "title": "I think so / I hope not", "level": "B2.1"},
+        {"id": "ellipsis-advanced", "title": "Ellipsis after auxiliaries and to", "level": "C2.1"}
+      ]
+    },
+    {
+      "id": "discourse",
+      "title_ru": "Дискурсивные маркеры",
+      "title_en": "Discourse markers",
+      "summary_ru": "Связность текста: however, therefore, on the other hand, nevertheless, that said.",
+      "rules": [
+        {"id": "linkers-basic", "title": "And, but, because, so", "level": "A1.2"},
+        {"id": "linkers-sequence", "title": "First, then, after that, finally", "level": "A2.1"},
+        {"id": "linkers-contrast", "title": "However, although, despite", "level": "B1.1"},
+        {"id": "linkers-academic", "title": "Furthermore, consequently, whereas", "level": "B2.1"},
+        {"id": "linkers-nuanced", "title": "That said, by the same token, if anything", "level": "C1.2"}
+      ]
+    },
+    {
+      "id": "register",
+      "title_ru": "Регистр и стиль",
+      "title_en": "Register and style",
+      "summary_ru": "Формальный, нейтральный и разговорный стиль: письма, email, дискуссии.",
+      "rules": [
+        {"id": "register-email", "title": "Informal vs formal emails", "level": "B1.2"},
+        {"id": "register-formality", "title": "Formality markers: vocabulary and grammar", "level": "B2.2"},
+        {"id": "register-shifts", "title": "Controlling register shifts", "level": "C2.1"}
+      ]
+    },
+    {
+      "id": "academic",
+      "title_ru": "Академический стиль",
+      "title_en": "Academic style",
+      "summary_ru": "Hedging, nominalization, безличные конструкции — основа TOEFL Writing.",
+      "rules": [
+        {"id": "hedging", "title": "Hedging: tend to, it appears that, arguably", "level": "C1.2"},
+        {"id": "nominalization", "title": "Nominalization", "level": "C1.2"},
+        {"id": "academic-precision", "title": "Precision and concision in academic prose", "level": "C2.2"}
+      ]
+    },
+    {
+      "id": "idioms",
+      "title_ru": "Идиомы и коллокации",
+      "title_en": "Idioms and collocations",
+      "summary_ru": "Устойчивые сочетания и идиомы — от make / do до C2.",
+      "rules": [
+        {"id": "make-do", "title": "Make vs do", "level": "A2.2"},
+        {"id": "collocations-b2", "title": "Common collocations: heavy rain, take a risk", "level": "B2.2"},
+        {"id": "idioms-c1", "title": "Idioms in context", "level": "C1.2"},
+        {"id": "collocations-c2", "title": "C2 idioms and collocations", "level": "C2.2"}
+      ]
+    }
+  ]
+}

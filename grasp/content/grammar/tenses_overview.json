@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "note": "Таблица 4×3 для обзора темы «Времена». Полные правила по каждому времени — шаг 4.",
+  "aspects": ["Simple", "Continuous", "Perfect", "Perfect Continuous"],
+  "times": ["Present", "Past", "Future"],
+  "cells": [
+    {"aspect": "Simple", "time": "Present", "name": "Present Simple", "form": "I work / she works", "example": "She works in a hospital.", "level": "A1.1"},
+    {"aspect": "Simple", "time": "Past", "name": "Past Simple", "form": "I worked / I went", "example": "We moved to Kazan in 2019.", "level": "A1.2"},
+    {"aspect": "Simple", "time": "Future", "name": "Future Simple", "form": "I will work", "example": "I think it’ll rain tomorrow.", "level": "A2.1"},
+    {"aspect": "Continuous", "time": "Present", "name": "Present Continuous", "form": "I am working", "example": "Look — it’s snowing!", "level": "A1.2"},
+    {"aspect": "Continuous", "time": "Past", "name": "Past Continuous", "form": "I was working", "example": "I was reading when you called.", "level": "A2.1"},
+    {"aspect": "Continuous", "time": "Future", "name": "Future Continuous", "form": "I will be working", "example": "This time tomorrow I’ll be flying to Boston.", "level": "B2.1"},
+    {"aspect": "Perfect", "time": "Present", "name": "Present Perfect", "form": "I have worked", "example": "I’ve never been to London.", "level": "A2.2"},
+    {"aspect": "Perfect", "time": "Past", "name": "Past Perfect", "form": "I had worked", "example": "The film had started before we arrived.", "level": "B1.1"},
+    {"aspect": "Perfect", "time": "Future", "name": "Future Perfect", "form": "I will have worked", "example": "By June I’ll have finished the course.", "level": "B2.1"},
+    {"aspect": "Perfect Continuous", "time": "Present", "name": "Present Perfect Continuous", "form": "I have been working", "example": "She’s been studying English for three years.", "level": "B1.2"},
+    {"aspect": "Perfect Continuous", "time": "Past", "name": "Past Perfect Continuous", "form": "I had been working", "example": "They had been waiting for an hour when the bus came.", "level": "B2.1"},
+    {"aspect": "Perfect Continuous", "time": "Future", "name": "Future Perfect Continuous", "form": "I will have been working", "example": "In May I’ll have been living here for ten years.", "level": "B2.2"}
+  ]
+}

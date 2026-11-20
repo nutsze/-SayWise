@@ -1,0 +1,13 @@
+# Grasp — зависимости приложения (Python 3.12+)
+PySide6>=6.7,<7          # GUI (Qt 6): High DPI, темы, SVG, QLocalServer
+SQLAlchemy>=2.0,<3       # локальная БД SQLite
+alembic>=1.13,<2         # миграции схемы
+keyring>=25              # API-ключ в Диспетчере учётных данных Windows
+
+# Подключаются на следующих шагах (уже учтены в архитектуре):
+# edge-tts>=6.1          # онлайн-озвучка (шаг 3: диктант, Listening)
+# pyttsx3>=2.90          # офлайн-озвучка, запасной вариант
+# sounddevice>=0.4       # запись голоса (Speaking)
+# numpy>=1.26            # буфер аудио для sounddevice / faster-whisper
+# faster-whisper>=1.0    # локальное распознавание речи; модель качается по кнопке
+# anthropic>=0.40        # AI-проверка Writing/Speaking (провайдер по умолчанию)

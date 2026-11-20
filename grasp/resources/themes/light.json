@@ -1,0 +1,23 @@
+{
+  "name": "light",
+  "title_ru": "Светлая",
+  "tokens": {
+    "bg": "#F5F6F8",
+    "surface": "#FFFFFF",
+    "surface_alt": "#ECEFF3",
+    "border": "#D3D8E0",
+    "text": "#1A1D23",
+    "text_secondary": "#535A66",
+    "accent": "#2B55C9",
+    "accent_text": "#FFFFFF",
+    "accent_soft": "#E2E9FA",
+    "success": "#1D7633",
+    "success_bg": "#E2F3E6",
+    "error": "#B0261D",
+    "error_bg": "#FBE5E3",
+    "warning": "#835500",
+    "warning_bg": "#FCF0D6",
+    "focus": "#2B55C9",
+    "scrollbar": "#B9C0CB"
+  }
+}

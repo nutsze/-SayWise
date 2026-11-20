@@ -1,0 +1,18 @@
+[project]
+name = "grasp"
+version = "0.1.0"
+description = "Grasp — английский от A1.1 до C2.2 и подготовка к TOEFL iBT (для русскоязычных)"
+requires-python = ">=3.12"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "ui_matrix: аудит отображения разрешения × масштаб × темы (медленно; пропуск: GRASP_SKIP_UI_MATRIX=1)",
+]
+qt_api = "pyside6"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"

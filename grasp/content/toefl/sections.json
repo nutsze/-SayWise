@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "format": "TOEFL iBT, формат с 21 января 2026",
+  "score_scale": "1–6 по каждой секции и общий балл, шаг 0.5",
+  "note": "Все задания Grasp генерирует самостоятельно; официальные материалы ETS не используются.",
+  "sections": [
+    {
+      "id": "reading",
+      "title_ru": "Reading",
+      "tasks": [
+        {"id": "complete-the-words", "title": "Complete the Words", "description_ru": "Допишите пропущенные буквы в словах академического абзаца."},
+        {"id": "read-daily-life", "title": "Read in Daily Life", "description_ru": "Короткие бытовые тексты: объявления, письма, сообщения."},
+        {"id": "read-academic-passage", "title": "Read an Academic Passage", "description_ru": "Академический текст и вопросы на понимание."}
+      ]
+    },
+    {
+      "id": "listening",
+      "title_ru": "Listening",
+      "tasks": [
+        {"id": "choose-response", "title": "Listen and Choose a Response", "description_ru": "Услышьте реплику и выберите уместный ответ."},
+        {"id": "conversation", "title": "Listen to a Conversation", "description_ru": "Диалог в бытовой или учебной ситуации."},
+        {"id": "announcement", "title": "Listen to an Announcement", "description_ru": "Объявление в кампусе или учебном курсе."},
+        {"id": "academic-talk", "title": "Listen to an Academic Talk", "description_ru": "Короткая лекция; аудио озвучивается через TTS."}
+      ]
+    },
+    {
+      "id": "writing",
+      "title_ru": "Writing",
+      "tasks": [
+        {"id": "build-sentence", "title": "Build a Sentence", "description_ru": "Соберите грамматически верное предложение из частей."},
+        {"id": "write-email", "title": "Write an Email", "description_ru": "Письмо по ситуации; AI-оценка 1–6 с разбором на русском."},
+        {"id": "academic-discussion", "title": "Academic Discussion", "description_ru": "Ответ в учебной дискуссии; AI-оценка 1–6 с исправленной версией."}
+      ]
+    },
+    {
+      "id": "speaking",
+      "title_ru": "Speaking",
+      "tasks": [
+        {"id": "listen-repeat", "title": "Listen and Repeat", "description_ru": "Повторите услышанную фразу как можно точнее."},
+        {"id": "interview", "title": "Take an Interview", "description_ru": "Ответьте на вопросы интервью: запись → расшифровка → оценка."}
+      ]
+    }
+  ]
+}

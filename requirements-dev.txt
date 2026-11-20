@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=8
+pytest-qt>=4.4
+pyinstaller>=6.6
+fonttools>=4.50          # tools/check_glyphs.py — покрытие глифов
+Pillow>=10.3             # tools/make_icon.py — сборка app.ico
